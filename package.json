@@ -4,7 +4,8 @@
     "scripts": {
         "build": "vite build, [my-framework] build --output public",
         "dev": "vite",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "start": "concurrently \"npm run dev\" \"npm run serve\""
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4.1.4",
